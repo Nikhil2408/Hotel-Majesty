@@ -56,7 +56,7 @@ body
 #img-container img
 {
     width: 100%;
-    height: 510px;
+    height: 500px;
 }
 
 #img-container
@@ -67,7 +67,7 @@ body
 #welcome-msg
 {
     color: black;
-    position:absolute;
+    position: absolute;
     top:25%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -78,11 +78,19 @@ body
 {
     color: black;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 10%;
-    margin: 10px;
-    text-align: center;
-    transform: translate(-5%, -10%);
+    /* text-align: center; */
+    transform: translate(-5%, -1%);
+}
+
+.primary-btn
+{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 .primary-btn a
@@ -91,14 +99,44 @@ body
     text-decoration: none;
     padding: 10px;
     color: white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -18%);
 }
+
 
 .primary-btn a:hover
 {
     color: wheat;
     background-color: rgb(48, 44, 44);
 }
+
+#img-container-2 img
+{
+    width: 50%;
+    height: 400px;
+    float:left;
+}
+/*
+#cntnt-container
+{
+    background-color: rgb(48, 44, 44);
+    width: 50%;
+    height: 400px;
+    float:left;
+}
+
+#cntnt-container h2
+{
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-22%, -50%);
+}
+
+#cntnt-container p
+{
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-22%, -50%);
+} */
