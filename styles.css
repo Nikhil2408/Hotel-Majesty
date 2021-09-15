@@ -9,6 +9,11 @@ body
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.clr
+{
+    clear: both;
+}
+
 .navbar
 {
     background-color: black;
@@ -53,14 +58,10 @@ body
 }
 
 
-#img-container img
+#img-container, img
 {
     width: 100%;
     height: 500px;
-}
-
-#img-container
-{
     position: relative;
 }
 
@@ -82,6 +83,7 @@ body
     left: 10%;
     /* text-align: center; */
     transform: translate(-5%, -1%);
+    font-size: 16px;
 }
 
 .primary-btn
@@ -108,6 +110,8 @@ body
     color: wheat;
     background-color: rgb(48, 44, 44);
 }
+
+
 
 #img-container-2 img
 {
@@ -230,7 +234,8 @@ footer
     text-align: center;
 }
 
-#footer p
+footer p
 {
-    /* padding: 10px; */
+    padding: 20px;
+    font-size: 17px;
 }
