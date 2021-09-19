@@ -1,0 +1,123 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar
+{
+    background-color: black;
+    overflow: hidden;
+}
+
+#navbar h2 a
+{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul
+{
+    float: right;
+}
+
+#navbar ul li
+{
+    float: left;
+    list-style: none;
+}
+
+#navbar ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 25px 20px;
+}
+
+#navbar ul li a:hover
+{
+    background-color: rgb(48, 44, 44);
+    color: wheat;
+}
+
+.clr
+{
+    clear: both;
+}
+
+#contact-section
+{
+    padding: 20px 0px 10px 20px;
+    background-color: rgb(221, 213, 213);
+}
+
+#contact-section #contact-heading h1
+{
+    font-size: 30px;
+}
+
+#contact-section #contact-heading h1 span
+{
+    color: coral;
+}
+
+#contact-section #contact-heading p
+{
+    padding: 10px 0px 10px 0px;
+}
+
+#contact-section #contact-form label
+{
+    display:block;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+#contact-section #contact-form input
+{
+    height: 30px;
+}
+#contact-section #contact-form input, textarea
+{
+    width: 90%;
+    border: none;
+    display: block;
+}
+
+#contact-section #contact-form input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#contact-section #contact-form input[type="submit"]:hover
+{
+    background-color: rgb(48, 44, 44);
+    color: wheat;
+}
+
+
+footer
+{
+    background-color: black;
+}
+
+footer p
+{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}

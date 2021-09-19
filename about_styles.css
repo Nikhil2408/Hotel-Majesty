@@ -67,6 +67,16 @@ body
     min-height: 100%;
 }
 
+#about-section #about-content h1
+{
+    font-size: 32px;
+}
+
+#about-section #about-content h1 span
+{
+    color: coral;
+}
+
 #about-section #about-content p
 {
     text-align: justify;
