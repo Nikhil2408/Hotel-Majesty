@@ -95,7 +95,7 @@ body
     background-image: url("images/test-bg.jpg");
     background: no-repeat cover;
     width:100%;
-    height: 500px;
+    height: 400px;
 }
 
 #feedback-section h2
@@ -114,6 +114,7 @@ body
     height: 120px;
     margin: 20px auto;
     background-color: coral;
+    overflow: hidden;
 }
 
 #feedback-section #guest1 #guest1-image
@@ -124,7 +125,6 @@ body
 
 #feedback-section #guest1 #guest1-image img
 {
-    display: inline-block;
     width: 100%;
     border-radius: 50%;
     height: 120px;
@@ -133,7 +133,6 @@ body
 
 #feedback-section #guest1 #guest1-feedback p
 {
-    color: black;
     padding: 30px 0px;
 }
 
@@ -147,5 +146,31 @@ body
 
 #feedback-section #guest2 #guest2-image
 {
-    
+    min-width: 15%;
+    float: left;
+}
+
+#feedback-section #guest2 #guest2-image img
+{
+    width: 100%;
+    border-radius: 50%;
+    height: 120px;
+    padding: 10px;
+}
+
+#feedback-section #guest2 #guest2-feedback p
+{
+    padding: 30px 0px;
+}
+
+.footer
+{
+    background-color: rgb(48, 44, 44);
+}
+
+.footer p
+{
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
 }
