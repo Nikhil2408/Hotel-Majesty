@@ -57,6 +57,12 @@ body
     color: wheat;
 }
 
+#current
+{
+    background-color: rgb(48, 44, 44);
+    color: wheat;
+}
+
 
 #img-container, img
 {
