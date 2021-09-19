@@ -84,6 +84,7 @@ body
     /* text-align: center; */
     transform: translate(-5%, -1%);
     font-size: 16px;
+    margin: 15px;
 }
 
 .primary-btn
@@ -132,7 +133,7 @@ body
 #img-cntnt-container #cntnt-container h2
 {
     text-align: center;
-    padding: 60px 0px 25px 0px;
+    padding: 52px 0px 25px 0px;
 }
 
 #img-cntnt-container #cntnt-container p
